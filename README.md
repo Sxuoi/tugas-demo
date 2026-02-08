@@ -1,0 +1,8 @@
+MySQL DB
+
+CREATE TABLE phishing_demo (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    identity VARCHAR(100),
+    password VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
